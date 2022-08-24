@@ -19,6 +19,7 @@ document.body.innerText = JSON.stringify(Object.values(user))
 document.body.innerText = JSON.stringify(Object.entries(user))
 
 
+<<<<<<< HEAD
 // Desestruturação
 
 // const address = user.address -> fica assim:
@@ -46,11 +47,20 @@ document.body.innerText = JSON.stringify(Object.entries(user))
 // }
 
 // document.body.innerText = mostrarIdade(user)
+=======
+document.body.innerText = 'Sua idade é: ' + idade;
+document.body.innerText = 'Sua idade é: ' + idade1;
+document.body.innerText = 'Sua idade é: ' + idade2;
+>>>>>>> b11bcf65ea772178f87aeb60e13268e71b8a9df4
 
 
 // Rest operator
 
+<<<<<<< HEAD
 const { name, age, ...rest } = user
 document.body.innerText = JSON.stringify(rest)
 // não vai retornar name e idade
+=======
+document.body.innerText = 'Sua idade é: ' +  (idade2 || 'Não informado');
+>>>>>>> b11bcf65ea772178f87aeb60e13268e71b8a9df4
 
